@@ -7,30 +7,18 @@
 
 ### 商标图片检测结果
 
-<div align="center">
-<img src="logo_0.jpg">
-<div>
-<div align="center">
-<img src="logo_1.jpg">
-<div>
+![avatar](logo_0.jpg)
+![avatar](logo_1.jpg)
   
 ### 商标文字检测结果
-<div align="center">
-<img src="Aalst.jpg">
-<div>
+![avatar](Aalst.jpg)
   
 ### 产品示意图检测结果
-<div align="center">
-<img src="content.jpg">
-<div>
+![avatar](content.jpg)
   
 ### 产品文字检测结果
-<div align="center">
-<img src="DARK.jpg">
-<div>
-<div align="center">
-<img src="CHOCOLATE.jpg">
-<div>
+![avatar](DARK.jpg)
+![avatar](CHOCOLATE.jpg)
 
 
   
@@ -42,16 +30,15 @@
 **绿色对应背景中非空白部分的艺术设计部分**
 
 #### 面1的检测结果
-<div align="center">
-<img src="https://github.com/ForeverRuri/zihui_dynamic_display/blob/gh-pages/region0.jpg">
+![avatar](region_0.jpg)
 
 #### 面2的检测结果
-<img src="https://github.com/ForeverRuri/zihui_dynamic_display/blob/gh-pages/region1.jpg">
+![avatar](region_1.jpg)
 
 #### 面3的检测结果
-<img src="https://github.com/ForeverRuri/zihui_dynamic_display/blob/gh-pages/region2.jpg">
+![avatar](region_2.jpg)
 
-<div>
+
 
 ### 动态展示效果
 https://foreverruri.github.io/zihui_dynamic_display/
