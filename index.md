@@ -7,30 +7,32 @@
 ### Step 1 轮廓提取结果
 <div align=center><img src="edges.jpg" ></div>
 
+### Step 2 对图中文字进行检测
 
-### 商标图片检测结果
+<div align=center><img src="Aalst.jpg" ></div>
+<div align=center><img src="DARK.jpg" ></div>
+<div align=center><img src="CHOCOLATE.jpg" ></div>
 
+|  字段   | 置信度  |
+|  ----  | ----  |
+| CHOCOLATE  | 0.9883 |
+| DARK  | 0.9997 |
+|8alst| 0.4264 |
+
+* 使用自然语言处理技术对输入置信度较低(低于0.5)的部分进行改正，得到`CHOCOLATE`, `DARK`, `Aalst`等三个字段。
+* 对指示产品内容的`CHOCOLATE`和对应品牌的`Aalst`进行分类。
+
+**二者都属于`Food`类别，从而通过验证，确认当前输入是一食品包装，进行后续操作。**
+
+
+### Step 3 对商标图片和产品示意图进行检测
+
+* #### 商标
 <div align=center><img src="logo_0.jpg" ></div>
 <div align=center><img src="logo_1.jpg" ></div>
 
   
-### 商标文字检测结果和类别判定
-<div align=center><img src="Aalst.jpg" ></div>
-
-所属类别 Food
-  
-### 产品文字检测结果和类别判定
-<div align=center><img src="DARK.jpg" ></div>
-<div align=center><img src="CHOCOLATE.jpg" ></div>
-
-所属类别 Food
-
-二者类别一致，验证通过，检测包装上的巧克力图像
-
-
-
-  
-### 巧克力图像检测结果
+* #### 巧克力
 <div align=center><img src="content.jpg" ></div>
 
 ### 每个面的信息融合结果
