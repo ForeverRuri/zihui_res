@@ -30,13 +30,13 @@
 **绿色对应背景中非空白部分的艺术设计部分**
 
 #### 面1的检测结果
-![avatar](region_0.jpg)
+![avatar](region0.jpg)
 
 #### 面2的检测结果
-![avatar](region_1.jpg)
+![avatar](region1.jpg)
 
 #### 面3的检测结果
-![avatar](region_2.jpg)
+![avatar](region2.jpg)
 
 
 
