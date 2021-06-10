@@ -40,5 +40,5 @@
 
 
 
-### 动态展示效果
-https://foreverruri.github.io/zihui_dynamic_display/
+### [动态展示效果](https://foreverruri.github.io/zihui_dynamic_display/)
+
