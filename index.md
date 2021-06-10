@@ -1,14 +1,16 @@
 ### 输入图片
 
-![avatar](1.jpeg)
+<div align=center><img src="1.jpeg" ></div>
 
 ### 轮廓提取结果
-![avatar](edges.jpg)
+<div align=center><img src="edges.jpg" ></div>
+
 
 ### 商标图片检测结果
 
-![avatar](logo_0.jpg)
-![avatar](logo_1.jpg)
+<div align=center><img src="logo_0.jpg" ></div>
+<div align=center><img src="logo_1.jpg" ></div>
+
   
 ### 商标文字检测结果
 ![avatar](Aalst.jpg)
