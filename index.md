@@ -1,9 +1,9 @@
 ### 输入图片
 
-![avatar](https://github.com/ForeverRuri/zihui_res/blob/gh-pages/1.jpeg)
+![avatar](1.jpeg)
 
 ### 轮廓提取结果
-![avatar](https://github.com/ForeverRuri/zihui_res/blob/gh-pages/edges.jpg)
+![avatar](edges.jpg)
 
 ### 商标图片检测结果
 
