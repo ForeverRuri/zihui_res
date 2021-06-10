@@ -5,19 +5,36 @@
 ### 轮廓提取结果
 ![avatar](https://github.com/ForeverRuri/zihui_res/blob/gh-pages/edges.jpg)
 
-### 商标检测结果
+### 商标图片检测结果
 
 <div align="center">
-<img src="https://github.com/ForeverRuri/zihui_res/blob/gh-pages/logo_0.jpg">
+<img src="logo_0.jpg">
 <div>
 <div align="center">
-<img src="https://github.com/ForeverRuri/zihui_res/blob/gh-pages/logo_1.jpg">
+<img src="logo_1.jpg">
+<div>
+  
+### 商标文字检测结果
+<div align="center">
+<img src="Aalst.jpg">
 <div>
   
 ### 产品示意图检测结果
 <div align="center">
-<img src="https://github.com/ForeverRuri/zihui_res/blob/gh-pages/content.jpg">
+<img src="content.jpg">
 <div>
+  
+### 产品文字检测结果
+<div align="center">
+<img src="DARK.jpg">
+<div>
+<div align="center">
+<img src="CHOCOLATE.jpg">
+<div>
+
+
+  
+  
 
 ### 每个面的信息融合结果
   
