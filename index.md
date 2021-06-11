@@ -1,24 +1,24 @@
 
-## 自会系统效果展示
+# 自会系统效果展示
 
-### 输入图片示例
+## 输入图片示例
 
 <div align=center><img src="1.jpeg" ></div>
 
-### Step 1 轮廓提取结果
+## Step 1 轮廓提取结果
 &#8195;&#8195; 利用计算机视觉技术对输入包装的边缘轮廓进行提取，结果如下
 
 <div align=center><img src="edges.jpg" ></div>
 
-### Step 2 对图中文字进行检测
+## Step 2 对图中文字进行检测
 
-* #### 检测区域
+* ### 检测区域
 
 <div align=center><img src="Aalst.jpg" ></div>
 <div align=center><img src="DARK.jpg" ></div>
 <div align=center><img src="CHOCOLATE.jpg" ></div>
 
-* #### 检测结果置信度
+* ### 检测结果置信度
 
 
 |  字段   | 置信度  |
@@ -27,23 +27,23 @@
 | **DARK**  | 0.9997 |
 | **8alst** | 0.4264 |
 
-* #### 检测结果改正和验证
+* ### 检测结果改正和验证
 * 使用自然语言处理技术对输入置信度较低(低于0.5)的部分进行改正，得到`CHOCOLATE`, `DARK`, `Aalst`等三个字段。
 * 对指示产品内容的`CHOCOLATE`和对应品牌的`Aalst`进行分类。
 * **二者都属于`Food`类别，从而通过验证，确认当前输入是一食品包装，进行后续操作。**
 
 
-### Step 3 对商标图片和产品示意图进行检测
+## Step 3 对商标图片和产品示意图进行检测
 
-* #### 商标
+* ### 商标
 <div align=center><img src="logo_0.jpg" ></div>
 <div align=center><img src="logo_1.jpg" ></div>
 
   
-* #### 巧克力
+* ### 巧克力
 <div align=center><img src="content.jpg" ></div>
 
-### 可见面的信息融合结果
+## Step 4 可见面的信息融合结果
   
 **&#8195;&#8195;对三个可见面的检测结果进行信息融合**  
 
@@ -59,16 +59,16 @@
 
 **&#8195;&#8195;借助设计领域的经验和积累，对商标图像和宣传语等不同类型所占区域的大小，相对位置进行调整，可得到不同效果的包装设计图，满足不同产品的设计需求，从而实现`创作智能`**
 
-* #### 面1的检测结果
+* ### 面1的检测结果
 <div align=center><img src="region0.jpg" ></div>
 
-* #### 面2的检测结果
+* ### 面2的检测结果
 <div align=center><img src="region1.jpg" ></div>
 
 
-* #### 面3的检测结果
+* ### 面3的检测结果
 <div align=center><img src="region2.jpg" ></div>
 
 
-### [3D动态展示效果](https://foreverruri.github.io/zihui_dynamic_display/)
+## [3D动态展示效果](https://foreverruri.github.io/zihui_dynamic_display/)
 
