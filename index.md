@@ -12,7 +12,13 @@
 
 ## Step 2 对图中文字进行检测
 
+* ### 检测结果
+
+<div align=center><img src="res.jpg" ></div>
+
 * ### 检测区域
+
+* 对所有的检测结果进行修正和剪裁，用于后续操作和模型效果提升
 
 <div align=center><img src="Aalst.jpg" ></div>
 <div align=center><img src="DARK.jpg" ></div>
@@ -35,19 +41,31 @@
 
 ## Step 3 对商标图片和产品示意图进行检测
 
-* ### 商标
+* ### 检测结果
+
+* 商标
+
+<div align=center><img src="logo_detect_res.jpg" ></div>
+
+* 产品
+
+<div align=center><img src="product_detect_res.jpg" ></div>
+
+* ### 检测区域
+
+* 商标
 <div align=center><img src="logo_0.jpg" ></div>
 <div align=center><img src="logo_1.jpg" ></div>
 
   
-* ### 巧克力
+* 产品
 <div align=center><img src="content.jpg" ></div>
 
 ## Step 4 可见面的信息融合结果
   
 **&#8195;&#8195;对三个可见面的检测结果进行信息融合**  
 
-&#8195;&#8195;对所有检测结果所处区域和相对位置进行计算，得到每一个可见面的全部检测结果，使用颜色进行类别的区分。
+&#8195;&#8195;通过`自会`系统自研技术，进一步修正步骤2和3的检测结果，对所有检测结果所处区域和相对位置进行计算，得到每一个可见面的全部检测结果，使用颜色进行类别的区分。
 
 **&#8195;&#8195;其中**
 * 黄色部分对应产品相关的宣传语
