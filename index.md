@@ -92,6 +92,18 @@
 * ### 面3的检测结果
 <div align=center><img src="region2.jpg" ></div>
 
+**&#8195;&#8195;并利用`Step 1`中检测得到的轮廓，对不可见面进行尺度复原如下**
+
+* ### 面4的检测结果
+<div align=center><img src="region3.jpg" ></div>
+
+* ### 面5的检测结果
+<div align=center><img src="region4.jpg" ></div>
+
+
+* ### 面6的检测结果
+<div align=center><img src="region5.jpg" ></div>
+
 
 ## [3D动态展示效果](https://foreverruri.github.io/zihui_dynamic_display/)
 
